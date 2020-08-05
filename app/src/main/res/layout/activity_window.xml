@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Controller.WindowActivity"
+    tools:ignore="ExtraText">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btncontoh">
+
+    </FrameLayout>
+
+    <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/btncontoh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:mbn_backgroundBottomColor="@color/btn_color_round"
+        app:mbn_circleColor="@color/btn_color_round"
+        app:mbn_countBackgroundColor="#ff6f00"
+        app:mbn_countTextColor="#ffffff"
+        app:mbn_defaultIconColor="#FFFFFF"
+        app:mbn_rippleColor="#2FF8F5F5"
+        app:mbn_selectedIconColor="#F9FAFA"
+        app:mbn_shadowColor="#1FFFFDFD">
+
+    </com.etebarian.meowbottomnavigation.MeowBottomNavigation><![CDATA[
+
+
+
+
+
+
+
+    />
+
+
+
+
+]]>
+</RelativeLayout>

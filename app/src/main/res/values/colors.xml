@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="btn_color_round">#FFA57E</color>
+    <color name="root_color">#0B8878</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="btn_bawah">#10BB67</color>
+
+
+</resources>

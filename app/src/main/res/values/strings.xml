@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Noken Clothing</string>
+    <string name="app_judul">Noken Clothing</string>
+    <string name="app_desk">Mudah, Cepat, Terpercaya</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Login</string>
+    <string name="username">Username</string>
+    <string name="fullname">Fullname</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="repass">Retipe-Password</string>
+    <string name="facebook_app_id">2662452034074851</string>
+    <string name="fb_login_protocol_scheme">fb2662452034074851</string>
+
+</resources>

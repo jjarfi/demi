@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Transparent" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHint">#9493b4</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+<!--    &lt;!&ndash;Button SignIn & Sign Up&ndash;&gt;-->
+<!--    <style name="button_custom">-->
+<!--        <item name="android:background">@drawable/btncontinue</item>-->
+<!--        <item name="android:layout_margin">20dp</item>-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--        <item name="android:textAllCaps">false</item>-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--    </style>-->
+
+    <style name="AppTheme.ActionBar.Transparent.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.ActionBar.Transparent.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+<!--    &lt;!&ndash;Collapsing style&ndash;&gt;-->
+<!--    <style name="CollapsedAppbar" parent="@android:style/TextAppearance.Medium">-->
+<!--        <item name="android:textSize">24sp</item>-->
+<!--        <item name="android:background">@color/overlayBackground</item>-->
+<!--        <item name="android:textColor">@color/colorPrimaryDark</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--    </style>-->
+
+    <style name="ExpandedAppbar" parent="@android:style/TextAppearance.Material.Title" tools:ignore="NewApi">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--Rating Dialog-->
+    <!--Rating dialog style-->
+    <style name="RatingDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle" tools:ignore="NewApi">@style/RatingDialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle" tools:ignore="NewApi">@style/RatingDialogButtonStyle</item>
+    </style>
+    <style name="RatingDialogButtonStyle" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorAccent</item>
+
+    </style>
+    <style name="RatingDialogFadeAnim">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
