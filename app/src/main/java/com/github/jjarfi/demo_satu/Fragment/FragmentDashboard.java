@@ -52,8 +52,8 @@ public class FragmentDashboard extends Fragment {
     @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.dashboard, menu);
+        this.menu = menu;
         super.onCreateOptionsMenu(menu, inflater);
-//        this.menu = menu;
     }
 
     @Override
