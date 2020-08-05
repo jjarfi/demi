@@ -150,8 +150,8 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="149dp"
-            android:layout_height="49dp"
+            android:layout_width="264dp"
+            android:layout_height="55dp"
             android:background="@drawable/button_rounded"
             android:text="@string/sign_up"
             android:textAllCaps="false"
@@ -163,17 +163,18 @@
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
             app:layout_constraintVertical_bias="0.136" />
 
-        <com.facebook.login.widget.LoginButton
-            android:id="@+id/login_button"
-            android:layout_width="203dp"
-            android:layout_height="39dp"
-            android:layout_gravity="center_horizontal"
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:background="@drawable/button_fb"
+            android:text="@string/withfb"
+            android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button2"
-            app:layout_constraintVertical_bias="0.157" />
+            app:layout_constraintVertical_bias="0.257" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>

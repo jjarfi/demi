@@ -6,12 +6,23 @@
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Login</string>
     <string name="username">Username</string>
-    <string name="fullname">Fullname</string>
-    <string name="phone">Phone Number</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="phone">Nomor Handphone</string>
     <string name="email">Email</string>
     <string name="pass">Password</string>
     <string name="repass">Retipe-Password</string>
     <string name="facebook_app_id">2662452034074851</string>
     <string name="fb_login_protocol_scheme">fb2662452034074851</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="pakaian">Daftar Pakaian</string>
+    <string name="shopping">Keranjang Belanja</string>
+    <string name="notif">Notifikasi</string>
+    <string name="accountSetting">Pengaturan Akun</string>
+
+    <string name="withfb">Continue with Facebook</string>
+
+
+
 
 </resources>

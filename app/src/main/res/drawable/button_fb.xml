@@ -4,7 +4,7 @@
     android:shape="rectangle"   >
 
     <solid
-        android:color="@color/btn_color_round" >
+        android:color="@color/fb" >
     </solid>
 
     <corners

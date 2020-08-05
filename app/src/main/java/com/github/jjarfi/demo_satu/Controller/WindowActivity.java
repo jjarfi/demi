@@ -6,7 +6,11 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
+import com.github.jjarfi.demo_satu.Fragment.FragmentAccount;
+import com.github.jjarfi.demo_satu.Fragment.FragmentClothing;
 import com.github.jjarfi.demo_satu.Fragment.FragmentDashboard;
+import com.github.jjarfi.demo_satu.Fragment.FragmentNotification;
+import com.github.jjarfi.demo_satu.Fragment.FragmentShopping;
 import com.github.jjarfi.demo_satu.R;
 
 public class WindowActivity extends AppCompatActivity {
@@ -28,10 +32,10 @@ public class WindowActivity extends AppCompatActivity {
         try{
             MeowBottomNavigation bottomNavigation = findViewById(R.id.btncontoh);
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentDashboard()).commit();
-            bottomNavigation.add(new MeowBottomNavigation.Model(ID_SATU, R.drawable.ic_baseline_person_24));
-            bottomNavigation.add(new MeowBottomNavigation.Model(ID_DUA, R.drawable.ic_baseline_person_24));
-            bottomNavigation.add(new MeowBottomNavigation.Model(ID_TIGA, R.drawable.ic_baseline_person_24));
-            bottomNavigation.add(new MeowBottomNavigation.Model(ID_EMPAT, R.drawable.ic_baseline_person_24));
+            bottomNavigation.add(new MeowBottomNavigation.Model(ID_SATU, R.drawable.ic_baseline_account_balance_24));
+            bottomNavigation.add(new MeowBottomNavigation.Model(ID_DUA, R.drawable.ic_baseline_accessibility_24));
+            bottomNavigation.add(new MeowBottomNavigation.Model(ID_TIGA, R.drawable.ic_baseline_add_shopping_cart_24));
+            bottomNavigation.add(new MeowBottomNavigation.Model(ID_EMPAT, R.drawable.ic_baseline_notifications_active_24));
             bottomNavigation.add(new MeowBottomNavigation.Model(ID_LIMA, R.drawable.ic_baseline_person_24));
 
             bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
@@ -49,16 +53,16 @@ public class WindowActivity extends AppCompatActivity {
                             selected_item = new FragmentDashboard();
                             break;
                         case ID_DUA:
-                            selected_item = new FragmentDashboard();
+                            selected_item = new FragmentClothing();
                             break;
                         case ID_TIGA:
-                            selected_item = new FragmentDashboard();
+                            selected_item = new FragmentShopping();
                             break;
                         case ID_EMPAT:
-                            selected_item = new FragmentDashboard();
+                            selected_item = new FragmentNotification();
                             break;
                         case ID_LIMA:
-                            selected_item = new FragmentDashboard();
+                            selected_item = new FragmentAccount();
                             break;
                         default:
                             id = "";
